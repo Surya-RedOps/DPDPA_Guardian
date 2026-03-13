@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+*.pdf
+*.csv
+*.xlsx
+
+# Database
+*.db
+*.sqlite
+
+# Docker volumes
+mongo-data/
+redis-data/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# S3 sample data
+s3-sample-data/
+
+# Scripts
+upload_to_s3.py
+populate_mongodb.js
+test-login.js
+reset-password.js
